@@ -45,7 +45,12 @@ See http://blairvanderhoof.com/gist-embed/ for all possible ways to use gist-emb
 
 ### Change log
 
-#### Version 2.7.0 (Jan 18, 2018)
+#### Version 2.7.1 (Jan 18, 2018)
+* Now you can customize the caption!
+* https://github.com/blairvanderhoof/gist-embed/pull/65
+* Thanks @stefanbauer!
+
+#### Version 2.7.0 (Jan 17, 2018)
 * Now you can collapse lines!
 * https://github.com/blairvanderhoof/gist-embed/pull/60
 * Thanks @stefanbauer!
