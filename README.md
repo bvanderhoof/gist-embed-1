@@ -5,7 +5,7 @@
 ```html
   <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.0/gist-embed.min.js"></script>
   </head>
 ```
 
@@ -43,6 +43,11 @@ See http://blairvanderhoof.com/gist-embed/ for all possible ways to use gist-emb
 * Use the same pattern for line numbers as data-gist-line, but use the attribute data-gist-highlight-line
 
 ### Change log
+
+#### Version 2.7.0 (Jan 18, 2018)
+* Now you can collapse lines!
+* https://github.com/blairvanderhoof/gist-embed/pull/60
+* Thanks @stefanbauer!
 
 #### Version 2.6 (Sep 4, 2016)
 * Now you can enable caching with data-gist-enable-cache="true". Future requests of the same gist won't hit the server!
