@@ -27,6 +27,7 @@ See http://blairvanderhoof.com/gist-embed/ for all possible ways to use gist-emb
 * Including individual files from a gist
 * Including specific line numbers from a gist
 * Including specific line numbers from a gist and collapse the others
+* Add a caption (filename for example) to a gist
 * Removing all line numbers from a gist
 * Removing the footer from a gist
 * Highlight lines from a gist

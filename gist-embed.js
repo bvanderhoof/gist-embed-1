@@ -37,6 +37,7 @@
         id,
         url,
         file,
+        caption,
         lines,
         linesExpanded,
         loading,
@@ -53,6 +54,7 @@
 
       id = $elem.data('gist-id') || '';
       file = $elem.data('gist-file');
+      caption = $elem.data('gist-caption');
       hideFooterOption = $elem.data('gist-hide-footer') === true;
       hideLineNumbersOption = $elem.data('gist-hide-line-numbers') === true;
       lines = $elem.data('gist-line');
@@ -223,6 +225,19 @@
                 $responseDiv.find('.js-line-number[data-line-number=' + lineBeforeFirstLine + ']').parent().after(lineElement);
               });
             }
+          }
+
+          // option to show caption
+          if (caption) {
+            var tbody = $responseDiv.find('table tbody');
+            var row = $('<tr></tr>');
+            var captionColumn = $('<td></td>')
+              .attr('style', 'padding: 10px !important; border-bottom: 10px solid white; background-color: #f9f9f9; font-weight: bold;')
+              .html(caption);
+
+            row.append($('<td style="background-color: #f9f9f9; border-bottom: 10px solid white;"></td>'));
+            row.append(captionColumn);
+            tbody.prepend(row);
           }
 
           // option to remove footer
