@@ -1,4 +1,8 @@
-## How to use gist-embed to spice up code snippets on your blog
+
+
+# USE https://github.com/bvanderhoof/gist-embed instead
+
+## [DEPRECATED] How to use gist-embed to spice up code snippets on your blog
 
 #### Include jQuery and gist-embed src:
 
